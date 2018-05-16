@@ -96,11 +96,13 @@ section#description{
   color: #7a7a7a;
   text-align: center;
   font-size: 18px;
-  line-height: 2em;
+  line-height: 1.75em;
   height: 90px;
+  font-weight: bold;
+  letter-spacing: -0.1rem
 }
 
-section#section-articles article{
+section#section-articles article, img{
   width: 260px;
   display: inline-block;
   vertical-align: top;
