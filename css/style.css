@@ -1,15 +1,6 @@
-/* font-family: 'Josefin Sans', sans-serif;
-font-family: 'Bitter', serif; */
-
-/* - Jaune : #cfa205 */
-/* - texte gris : #7a7a7a */
-/* - fond de la barre sociale : #e8e8e8 */
-#text{
-  position: fixed;
-}
 img{
-  width: 260px;
   height: 195px;
+  top: 0;
 }
 a{
   text-decoration: none;
@@ -30,18 +21,19 @@ body{
   background-image: url("../img/bg.jpg");
   background-size: cover;
 }
-main{
+header, main{
   width: 1020px;
   margin: auto;
+}
+header{
+  background-color: black;
+}
+main{
   background-color: white;
 }
 nav{
-  width: 1020px;
   height: 60px;
   text-align: center;
-}
-nav, h1, h2{
-  background-color: black;
 }
 nav ul{
   font-size: 18px;
@@ -78,16 +70,17 @@ article p{
   font-size: 14px;
   color: #7a7a7a;
   line-height: 1.5em;
+  height: 126px;
 }
-#link{
+#social{
   background-color: #e8e8e8;
   text-align: center;
-  font-size: 26.5px;
+  font-size: 27px;
 }
-#link li{
+#social li{
   padding: 15px 0.25em;
 }
-#link li a{
+#social li a{
   color: #7a7a7a;
 }
 
@@ -107,15 +100,19 @@ section#description{
   height: 90px;
 }
 
-section#section-articles{
-
-}
-
 section#section-articles article{
   width: 260px;
   display: inline-block;
+  vertical-align: top;
 }
 
 article#article-1, article#article-2{
   margin-right: 60px;
+}
+i.fas.fa-chevron-circle-up{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 2.5em;
+  color: rgba(0, 0, 0, 0.5);
 }
