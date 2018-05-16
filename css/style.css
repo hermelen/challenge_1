@@ -1,9 +1,70 @@
-font-family: 'Josefin Sans', sans-serif;
-font-family: 'Bitter', serif;
-html{
-  margin: 0;
-  padding: 0;
-}
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Bitter', serif; */
+
 /* - Jaune : #cfa205 */
 /* - texte gris : #7a7a7a */
 /* - fond de la barre sociale : #e8e8e8 */
+li{
+  display: inline-block;
+
+}
+nav .active{
+  color : #cfa205;
+}
+li, h1{
+font-family: 'Josefin Sans', sans-serif;
+}
+h2, h3, p{
+  font-family: 'Bitter', serif;
+}
+body{
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+}
+main{
+  width: 1020px;
+  height: 1010px;
+  margin: auto;
+  background-color: white;
+}
+nav{
+  width: 1020px;
+  height: 60px;
+  color : white;
+  text-align: center;
+}
+nav, h1, h2{
+  background-color: black;
+}
+nav ul{
+  font-size: 18px;
+  padding: 21px 0;
+  text-transform: uppercase;
+}
+nav ul li{
+  padding: 0 1em;
+}
+h1{
+  font-size: 133px;
+  font-weight: lighter;
+  color: #cfa205;
+  text-align: center;
+  padding: 40px 0;
+}
+h2{
+  font-size: 18px;
+  font-weight: bold;
+  color: #cfa205;
+  text-align: center;
+  padding-bottom: 29px;
+}
+#link{
+  background-color: #e8e8e8;
+  text-align: center;
+  font-size: 26.5px;
+}
+#link li{
+  padding: 15px 0.25em;
+  color: #7a7a7a;
+
+}
