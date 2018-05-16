@@ -1,36 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Bitter|Josefin+Sans');
-/* font-family: 'Josefin Sans', sans-serif;
-font-family: 'Bitter', serif; */
-#cfa205
-#7a7a7a
-#e8e8e8
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Bitter', serif;
 
-body{
-    /* width: 1400px;
-    height: 1010px; */
-    background-image: url(../img/bg.jpg);
-}
-main{
-    width: 1020px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: white;
-}
-
-#nav, h1{
-    font-family: 'Josefin Sans', sans-serif;
-}
-
-#link, p, h2, h3{
-    font-family: 'Bitter', serif;
-}
-header{
-    background-color: black;
-}
-#nav{
-    list-style: none;
-    height: 60px;
-}
-#nav li{
-
-}
+/* - Jaune : #cfa205
+- texte gris : #7a7a7a
+- fond de la barre sociale : #e8e8e8 */
